@@ -4,8 +4,8 @@ import { BiMoviePlay, BiGame } from 'react-icons/bi';
 
 export default function Project() {
     return (
-      <div className="bg-beige py-8">
-      <h3 className="mb-10 text-center underline text-greenish text-4xl font-bold">My Work
+      <div className="bg-beige py-8 md:px-2 px-4">
+      <h3 className="mb-10 text-center overline text-greenish text-4xl font-bold">My Work
           </h3>
         <div className="grid lg:grid-cols-2 grid-cols-1 content-center justify-items-center gap-y-9 gap-x-3">
             

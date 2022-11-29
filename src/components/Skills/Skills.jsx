@@ -50,7 +50,7 @@ export default function Skills() {
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
         <p className="text-whitish text-xl font-semibold">Redux Toolkit</p>
         <p className="text-whitish text-xl font-semibold">Firebase</p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-whitish text-xl font-semibold  text-center">
           Object Oriented Programming
         </p>
         <p className="text-whitish text-xl font-semibold">Git & Github</p>
