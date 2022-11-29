@@ -14,7 +14,7 @@ import {
 
 export default function Skills() {
   return (
-    <div className="h-full bg-greenish p-5">
+    <div className="h-full bg-greenish py-5">
       <h3 className="text-night text-5xl font-extrabold text-center m-3 pb-4">
         Technical Skills
       </h3>
