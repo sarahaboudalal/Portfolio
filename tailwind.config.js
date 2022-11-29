@@ -10,10 +10,10 @@ module.exports = {
       },
     extend: {
       colors: {
-        whitish: '#f2e8cf',
-        redish: '#bc4749',
-        darkGreen:'#386641',
-        lightGreen: '#6a994e'
+        whitish: '#F1F1F1',
+        beige: '#E2DCC8',
+        greenish:'#0F3D3E',
+        night: '#100F0F'
       },
      
     },
