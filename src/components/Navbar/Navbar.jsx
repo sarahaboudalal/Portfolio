@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-6">
           <div className="flex items-center">
             <img
-              src="https://cdn.discordapp.com/attachments/1031834305703460906/1047504083579326536/Untitled-1-01.png"
+              src="https://cdn.discordapp.com/attachments/1031834305703460906/1047509861354700911/sad-01.png"
               className="mr-3 h-9"
               alt="Flowbite Logo"
             />
