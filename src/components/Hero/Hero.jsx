@@ -1,5 +1,4 @@
 import { BsCodeSlash, BsCode } from 'react-icons/bs';
-import About from '../About/About';
 
 export default function Hero() {
   return (
