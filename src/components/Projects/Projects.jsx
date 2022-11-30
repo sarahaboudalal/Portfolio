@@ -172,7 +172,7 @@ export default function Project() {
               </h5>
             </a>
             <p className="mb-3 text-night ">
-              A prohect to practive JavaScript. A game where you fill in the
+              A project to practive JavaScript. A game where you fill in the
               blanks of an incomplete story and see your version updating as you
               type.
             </p>
