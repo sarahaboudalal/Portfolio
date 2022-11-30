@@ -4,8 +4,8 @@ import { BiMoviePlay, BiGame } from 'react-icons/bi';
 
 export default function Project() {
     return (
-      <div className="bg-whitish py-8 md:px-2 px-4">
-      <h3 className="mb-10 text-center overline text-greenish text-4xl font-bold">My Work
+      <div className="bg-whitish py-8 md:px-2 px-4 dark:bg-greenish">
+      <h3 className="mb-10 text-center overline text-greenish text-4xl font-bold dark:text-beige">My Work
           </h3>
         <div className="grid lg:grid-cols-2 grid-cols-1 content-center justify-items-center gap-y-9 gap-x-3">
             
@@ -24,7 +24,7 @@ export default function Project() {
             <p className="mb-3 font-normal text-night ">
               Capstone team project built at Re:Coded bootcamp. Dilmun allows
               people to sell, buy, and even donate products with a click of a
-              button. With it's availability in 3 different languages, it also
+              button. With its availability in 3 different languages, it also
               helps people to meet and connect online. By signing up with either
               your email, Google, or Facebook account, you'll get to see the
               world we built in Dilmun.

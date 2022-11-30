@@ -14,47 +14,53 @@ import {
 
 export default function Skills() {
   return (
-    <div className="h-full bg-whitish py-5">
+    <div className="h-full bg-whitish py-5 dark:bg-greenish">
       <h3 className="text-night text-5xl font-extrabold text-center m-3 pb-4">
         Technical Skills
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           HTML5
-          <SiHtml5 className="inline w-10 mb-1 text-night" />
+          <SiHtml5 className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           CSS3
-          <SiCss3 className="inline w-10 mb-1 text-night" />
+          <SiCss3 className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           JavaScript
-          <SiJavascript className="inline w-10 mb-1 text-night" />
+          <SiJavascript className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           React
-          <SiReact className="inline w-10 mb-1 text-night" />
+          <SiReact className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           Tailwind CSS
-          <SiTailwindcss className="inline w-10 mb-1 text-night" />
+          <SiTailwindcss className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           Bootstrap
-          <SiBootstrap className="inline w-10 mb-1 text-night" />
+          <SiBootstrap className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
       </div>
       <h3 className="text-night text-5xl font-extrabold text-center m-3 pb-4">
         Experience In
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
-        <p className="text-greenish text-xl font-semibold">Redux Toolkit</p>
-        <p className="text-greenish text-xl font-semibold">Firebase</p>
-        <p className="text-greenish text-xl font-semibold  text-center">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
+          Redux Toolkit
+        </p>
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
+          Firebase
+        </p>
+        <p className="text-greenish text-xl font-semibold  text-center dark:text-beige">
           Object Oriented Programming
         </p>
-        <p className="text-greenish text-xl font-semibold">Git & Github</p>
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
+          Git & Github
+        </p>
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           Responsive Web Design
         </p>
       </div>
@@ -62,21 +68,21 @@ export default function Skills() {
         Also Knows
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           Adobe Illustrator
-          <SiAdobeillustrator className="inline w-10 mb-1 text-night" />
+          <SiAdobeillustrator className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           Adobe Photoshop
-          <SiAdobephotoshop className="inline w-10 mb-1 text-night" />
+          <SiAdobephotoshop className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           Figma
-          <SiFigma className="inline w-10 mb-1 text-night" />
+          <SiFigma className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
-        <p className="text-greenish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold dark:text-beige">
           Canva
-          <SiCanva className="inline w-10 mb-1 text-night" />
+          <SiCanva className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
       </div>
     </div>
