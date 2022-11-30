@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdEmail } from 'react-icons/md';
 import { SiUpwork } from 'react-icons/si';
-import { BsGithub, BsLinkedin, BsFillTelephoneFill } from 'react-icons/bs';
+import { BsGithub, BsLinkedin} from 'react-icons/bs';
 
 export default function Navbar() {
   return (
@@ -39,15 +39,9 @@ export default function Navbar() {
             </a>
             <a
               href="mailto:sarahaboudalal@gmail.com"
-              className="mr-6 text-sm font-medium hover:text-beige text-whitish"
-            >
-              <MdEmail className="h-8 w-4" />
-            </a>
-            <a
-              href="tel:0096171557806"
               className="text-sm font-medium hover:text-beige text-whitish"
             >
-              <BsFillTelephoneFill />
+              <MdEmail className="h-8 w-4" />
             </a>
           </div>
         </div>

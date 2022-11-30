@@ -15,7 +15,7 @@ import {
 export default function Skills() {
   return (
     <div className="h-full bg-whitish py-5 dark:bg-greenish">
-      <h3 className="text-night text-5xl font-extrabold text-center m-3 pb-4">
+      <h3 className="text-night dark:text-whitish text-5xl font-extrabold text-center m-3 pb-4">
         Technical Skills
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
@@ -44,7 +44,7 @@ export default function Skills() {
           <SiBootstrap className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
       </div>
-      <h3 className="text-night text-5xl font-extrabold text-center m-3 pb-4">
+      <h3 className="text-night dark:text-whitish text-5xl font-extrabold text-center m-3 pb-4">
         Experience In
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
@@ -64,7 +64,7 @@ export default function Skills() {
           Responsive Web Design
         </p>
       </div>
-      <h3 className="text-night text-5xl font-extrabold text-center m-3 pb-4">
+      <h3 className="text-night dark:text-whitish text-5xl font-extrabold text-center m-3 pb-4">
         Also Knows
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">

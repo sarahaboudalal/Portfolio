@@ -1,5 +1,4 @@
 import { MdEmail } from "react-icons/md";
-import { BsFillTelephoneFill } from "react-icons/bs";
 
 export default function Footer() {
     return (
@@ -10,12 +9,6 @@ export default function Footer() {
           className="mx-4 text-sm font-medium hover:text-beige text-whitish"
         >
           <MdEmail className="h-8 w-4" />
-        </a>
-        <a
-          href="tel:0096171557806"
-          className="text-sm font-medium hover:text-beige text-whitish"
-        >
-          <BsFillTelephoneFill />
         </a>
       </div>
     );
