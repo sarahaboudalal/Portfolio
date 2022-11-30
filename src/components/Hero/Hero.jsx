@@ -1,4 +1,5 @@
 import { BsCodeSlash, BsCode } from 'react-icons/bs';
+import About from '../About/About';
 
 export default function Hero() {
   return (
@@ -18,7 +19,7 @@ export default function Hero() {
         <h3 className="text-greenish font-bold text-xl py-3">
           Find more about me{' '}
           <a
-            href="#"
+            href='#about-section'
             className="text-greenish hover:underline hover:text-night"
           >
             here

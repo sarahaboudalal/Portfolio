@@ -14,47 +14,47 @@ import {
 
 export default function Skills() {
   return (
-    <div className="h-full bg-greenish py-5">
+    <div className="h-full bg-whitish py-5">
       <h3 className="text-night text-5xl font-extrabold text-center m-3 pb-4">
         Technical Skills
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           HTML5
-          <SiHtml5 className="inline w-10 mb-1 text-beige" />
+          <SiHtml5 className="inline w-10 mb-1 text-night" />
         </p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           CSS3
-          <SiCss3 className="inline w-10 mb-1 text-beige" />
+          <SiCss3 className="inline w-10 mb-1 text-night" />
         </p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           JavaScript
-          <SiJavascript className="inline w-10 mb-1 text-beige" />
+          <SiJavascript className="inline w-10 mb-1 text-night" />
         </p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           React
-          <SiReact className="inline w-10 mb-1 text-beige" />
+          <SiReact className="inline w-10 mb-1 text-night" />
         </p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           Tailwind CSS
-          <SiTailwindcss className="inline w-10 mb-1 text-beige" />
+          <SiTailwindcss className="inline w-10 mb-1 text-night" />
         </p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           Bootstrap
-          <SiBootstrap className="inline w-10 mb-1 text-beige" />
+          <SiBootstrap className="inline w-10 mb-1 text-night" />
         </p>
       </div>
       <h3 className="text-night text-5xl font-extrabold text-center m-3 pb-4">
         Experience In
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
-        <p className="text-whitish text-xl font-semibold">Redux Toolkit</p>
-        <p className="text-whitish text-xl font-semibold">Firebase</p>
-        <p className="text-whitish text-xl font-semibold  text-center">
+        <p className="text-greenish text-xl font-semibold">Redux Toolkit</p>
+        <p className="text-greenish text-xl font-semibold">Firebase</p>
+        <p className="text-greenish text-xl font-semibold  text-center">
           Object Oriented Programming
         </p>
-        <p className="text-whitish text-xl font-semibold">Git & Github</p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">Git & Github</p>
+        <p className="text-greenish text-xl font-semibold">
           Responsive Web Design
         </p>
       </div>
@@ -62,21 +62,21 @@ export default function Skills() {
         Also Knows
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           Adobe Illustrator
-          <SiAdobeillustrator className="inline w-10 mb-1 text-beige" />
+          <SiAdobeillustrator className="inline w-10 mb-1 text-night" />
         </p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           Adobe Photoshop
-          <SiAdobephotoshop className="inline w-10 mb-1 text-beige" />
+          <SiAdobephotoshop className="inline w-10 mb-1 text-night" />
         </p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           Figma
-          <SiFigma className="inline w-10 mb-1 text-beige" />
+          <SiFigma className="inline w-10 mb-1 text-night" />
         </p>
-        <p className="text-whitish text-xl font-semibold">
+        <p className="text-greenish text-xl font-semibold">
           Canva
-          <SiCanva className="inline w-10 mb-1 text-beige" />
+          <SiCanva className="inline w-10 mb-1 text-night" />
         </p>
       </div>
     </div>

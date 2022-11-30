@@ -4,12 +4,12 @@ import { BiMoviePlay, BiGame } from 'react-icons/bi';
 
 export default function Project() {
     return (
-      <div className="bg-beige py-8 md:px-2 px-4">
+      <div className="bg-whitish py-8 md:px-2 px-4">
       <h3 className="mb-10 text-center overline text-greenish text-4xl font-bold">My Work
           </h3>
         <div className="grid lg:grid-cols-2 grid-cols-1 content-center justify-items-center gap-y-9 gap-x-3">
             
-          <div className="flex flex-col max-w-lg p-6 bg-whitish border border-gray-200 rounded-lg shadow-md">
+          <div className="flex flex-col max-w-lg p-6 bg-beige border border-gray-200 rounded-lg shadow-md">
             <BsCartFill className="w-10 h-10 mb-2 text-greenish" />
 
             <a
@@ -49,7 +49,7 @@ export default function Project() {
               </a>
             </p>
           </div>
-          <div className=" flex flex-col max-w-lg p-6 bg-whitish border border-gray-200 rounded-lg shadow-md">
+          <div className=" flex flex-col max-w-lg p-6 bg-beige border border-gray-200 rounded-lg shadow-md">
             <TfiWrite className="w-10 h-10 mb-2 text-greenish" />
 
             <a
@@ -86,7 +86,7 @@ export default function Project() {
               </a>
             </p>
           </div>
-          <div className=" flex flex-col max-w-lg p-6 bg-whitish border border-gray-200 rounded-lg shadow-md">
+          <div className=" flex flex-col max-w-lg p-6 bg-beige border border-gray-200 rounded-lg shadow-md">
             <BsFilm className="w-10 h-10 mb-2 text-greenish" />
 
             <a
@@ -123,7 +123,7 @@ export default function Project() {
               </a>
             </p>
           </div>
-          <div className=" flex flex-col max-w-lg p-6 bg-whitish border border-gray-200 rounded-lg shadow-md">
+          <div className=" flex flex-col max-w-lg p-6 bg-beige border border-gray-200 rounded-lg shadow-md">
             <BiMoviePlay className="w-10 h-10 mb-2 text-greenish" />
 
             <a
@@ -159,7 +159,7 @@ export default function Project() {
               </a>
             </p>
           </div>
-          <div className=" flex flex-col max-w-lg p-6 bg-whitish border border-gray-200 rounded-lg shadow-md">
+          <div className=" flex flex-col max-w-lg p-6 bg-beige border border-gray-200 rounded-lg shadow-md">
             <BiGame className="w-10 h-10 mb-2 text-greenish" />
 
             <a
