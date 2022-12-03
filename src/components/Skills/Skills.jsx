@@ -48,20 +48,23 @@ export default function Skills() {
         Experience In
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
-        <p className="text-greenish text-xl font-semibold dark:text-beige">
+        <p className="text-greenish text-xl text-center font-semibold dark:text-beige">
           Redux Toolkit
         </p>
-        <p className="text-greenish text-xl font-semibold dark:text-beige">
+        <p className="text-greenish text-xl text-center font-semibold dark:text-beige">
           Firebase
         </p>
         <p className="text-greenish text-xl font-semibold  text-center dark:text-beige">
           Object Oriented Programming
         </p>
-        <p className="text-greenish text-xl font-semibold dark:text-beige">
+        <p className="text-greenish text-xl text-center font-semibold dark:text-beige">
           Git & Github
         </p>
-        <p className="text-greenish text-xl font-semibold dark:text-beige">
+        <p className="text-greenish text-xl text-center font-semibold dark:text-beige">
           Responsive Web Design
+        </p>
+        <p className="text-greenish text-xl text-center font-semibold dark:text-beige">
+          Jest
         </p>
       </div>
       <h3 className="text-night dark:text-whitish text-5xl font-extrabold text-center m-3 pb-4">
