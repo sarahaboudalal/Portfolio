@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdEmail } from 'react-icons/md';
+import logo from '../../assets/images/sarah-sad-01.png'
 import { SiUpwork } from 'react-icons/si';
 import { BsGithub, BsLinkedin} from 'react-icons/bs';
 
@@ -10,7 +11,7 @@ export default function Navbar() {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-6">
           <div className="flex items-center">
             <img
-              src="https://cdn.discordapp.com/attachments/1031834305703460906/1047509861354700911/sad-01.png"
+              src={logo}
               className="mr-3 h-9"
               alt="Flowbite Logo"
             />

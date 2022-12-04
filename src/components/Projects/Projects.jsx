@@ -27,7 +27,7 @@ export default function Project() {
               button. With its availability in 3 different languages, it also
               helps people to meet and connect online. By signing up with either
               your email, Google, or Facebook account, you'll get to see the
-              world we built in Dilmun.
+              world we built at Dilmun.
             </p>
             <p className="text-greenish">
               <a

@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1",
+        "name": "Dilmun",
+        "description": "Capstone team project built at Re:Coded bootcamp. Dilmun allows people to sell, buy, and even donate products with a click of a button. With its availability in 3 different languages, it also helps people to meet and connect online. By signing up with either your email, Google, or Facebook account, you'll get to see the world we built at Dilmun.",
+        "links": [
+            {
+                "name": "Check Code",
+                "url": "https://github.com/sarahaboudalal/capstone-IQLBPS-Dilmun" 
+            },
+            {
+                "name": "Go To Site",
+                "url": "https://capstone-dilmun.netlify.app/"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Firebase Blog",
+        "description": "A blog website built using firebase authentication and cloud store. By signing in using your Google account, you can start writing blogs, and you're allowed to delete them later.",
+        "links":[
+            {
+                "name": "Check Code",
+                "url": "https://github.com/sarahaboudalal/Firebase-Blog"
+            },
+            {
+                "name": "Go To Site",
+                "url": "https://firebase-react-blog.netlify.app"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Shopify Challenge",
+        "description": "A website to search for your favorite movies, nominate the top 5, and let the website choose a winner movie for you. Built using React.js and styled with Tailwind CSS.",
+        "links":[
+            {
+                "name": "Check Code",
+                "url": "https://github.com/sarahaboudalal/Shopify-Challenge"
+            },
+            {
+                "name" : "Go To Site",
+                "url": "https://shopify-react-challenge.netlify.app"
+            }
+        ] 
+    },
+    {
+        "id": "4",
+        "name": "OOP Movie Project",
+        "description": " A project to practice object-oriented programming in JavaScript. Utilizing TMDB API to get movies' and actors' details.",
+        "links": [
+            {
+                "name": "Check Code",
+                "url": "https://github.com/sarahaboudalal/OOP-Movie-Project"
+            },
+            {
+                "name": "Go To Site",
+                "url": "https://sarahaboudalal.github.io/OOP-Movie-Project/"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Mad Libs",
+        "description": "A project to practive JavaScript. A game where you fill in the blanks of an incomplete story and see your version updating as you type.",
+        "links" :[
+            {
+                "name": "Check Code",
+                "url" : "https://github.com/sarahaboudalal/Mad-Libs-Project"
+            },
+            {
+                "name" : "Go To Site",
+                "url" : "https://sarahaboudalal.github.io/Mad-Libs-Project/"
+            }
+        ]
+    }
+]

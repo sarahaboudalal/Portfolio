@@ -20,11 +20,11 @@ export default function Skills() {
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
         <p className="text-greenish text-xl font-semibold dark:text-beige">
-          HTML5
+          HTML 5
           <SiHtml5 className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
         <p className="text-greenish text-xl font-semibold dark:text-beige">
-          CSS3
+          CSS 3
           <SiCss3 className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
         <p className="text-greenish text-xl font-semibold dark:text-beige">
@@ -32,7 +32,7 @@ export default function Skills() {
           <SiJavascript className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
         <p className="text-greenish text-xl font-semibold dark:text-beige">
-          React
+          React.js
           <SiReact className="inline w-10 mb-1 text-night dark:text-whitish" />
         </p>
         <p className="text-greenish text-xl font-semibold dark:text-beige">
