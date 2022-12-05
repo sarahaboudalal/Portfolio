@@ -18,7 +18,7 @@ export default function About() {
         career switching journey began. I found myself so fund with coding and
         tech, and I started looking for an oportunity to learn more. I finally
         found myself applying to one of Re:Coded's Front-End bootcamps, and I
-        was one of the lucky people who where accepted there. In a period of 5
+        was one of the lucky people who were accepted there. In a period of 5
         months, I jumped from someone who knows nothing about coding, to a
         really confident Front End Web Developer who's even more ready to learn
         new things and discover the world of tech more deeply.
