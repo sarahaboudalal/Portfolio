@@ -1,54 +1,97 @@
-import React from 'react';
+import React, { useState } from 'react';
+import logo from '../../assets/images/sarah-sad-01.png';
+import { NavLink } from 'react-router-dom';
 import { MdEmail } from 'react-icons/md';
-import logo from '../../assets/images/sarah-sad-01.png'
 import { SiUpwork } from 'react-icons/si';
-import { BsGithub, BsLinkedin} from 'react-icons/bs';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { FaBars } from 'react-icons/fa';
+import { AiOutlineClose } from 'react-icons/ai';
 
 export default function Navbar() {
+
+  const [open, setOpen] = useState(false)
+
   return (
-    <div>
-      <nav className="bg-greenish">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-6">
-          <div className="flex items-center">
-            <img
-              src={logo}
-              className="mr-3 h-9"
-              alt="Flowbite Logo"
-            />
-            <span className="self-center hover:text-redish text-whitish text-3xl font-bold">
-              Sarah Abou Dalal
-            </span>
-          </div>
-          <div className="flex items-center">
-            <a
-              href="https://github.com/sarahaboudalal"
-              className="mr-6 text-sm font-medium hover:text-beige text-whitish"
+    <nav className="bg-whitish px-4 sm:px-12 py-2.5 sticky w-full z-20 top-0 left-0 border-b border-gray-200 shadow-md">
+      <div className="container flex flex-wrap justify-between items-center mx-auto">
+        <div className="flex items-center">
+          <button
+            data-collapse-toggle="navbar-hamburger"
+            type="button"
+            className=""
+            onClick={() => setOpen(!open)}
+          >
+            {open ? (
+              <AiOutlineClose className="text-4xl text-greenish absolute right-8 top-5 cursor-pointer md:hidden" />
+            ) : (
+              <FaBars className="text-4xl text-greenish absolute right-8 top-5 cursor-pointer md:hidden" />
+            )}
+          </button>
+          <img src={logo} alt="logo" class="mr-3 h-12" />
+          <div
+            className={[
+              'items-center justify-between md:flex md:w-auto md:order-1',
+              open ? 'flex' : 'hidden',
+            ].join(' ')}
+          >
+            <ul
+              className={[
+                'text-greenish font-bold md:text-xl bg-whitish md:bg-transparent text-2xl md:flex flex-col md:flex-row md:w-auto md:h-auto gap-x-5 h-screen sm:w-72 w-56',
+                open
+                  ? 'md:shadow-none shadow-xl md:relative absolute top-0 left-0 md:p-0 px-5 pt-8'
+                  : 'left-[-700px] top-[96px] hidden',
+              ].join(' ')}
             >
-              <BsGithub className="h-8 w-4" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/sarah-abou-dalal-977891250/"
-              className="mr-6 text-sm font-medium hover:text-beige text-whitish"
-            >
-              <BsLinkedin className="h-8 w-4" />
-            </a>
-            <a
-              href="https://www.upwork.com/freelancers/~01fe1bf223c6b52e3e"
-              className="mr-6 text-sm font-medium hover:text-beige text-whitish"
-            >
-              <SiUpwork className="h-8 w-4" />
-            </a>
-            <a
-              href="mailto:sarahaboudalal@gmail.com"
-              className="text-sm font-medium hover:text-beige text-whitish"
-            >
-              <MdEmail className="h-8 w-4" />
-            </a>
+              <li className="md:py-0 py-2">
+                <NavLink className="cursor-pointer" to="/">
+                  Work
+                </NavLink>
+              </li>
+              <li className="md:py-0 py-2">
+                <NavLink className="cursor-pointer">
+                  Skills
+                </NavLink>
+              </li>
+              <li className="md:py-0 py-2">
+                <NavLink className="cursor-pointer">About</NavLink>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </div>
+        <div
+          className={[
+            'md:flex md:justify-end justify-center gap-x-6 md:mt-0 mt-3',
+            open
+              ? 'flex absolute md:relative inset-y-44 left-0 md:inset-y-0 px-5'
+              : 'hidden',
+          ].join(' ')}
+        >
+          <a
+            href="https://github.com/sarahaboudalal"
+            className="text-sm font-medium hover:text-greenish text-night"
+          >
+            <BsGithub className="h-8 w-6" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sarah-abou-dalal-977891250/"
+            className="text-sm font-medium hover:text-greenish text-night"
+          >
+            <BsLinkedin className="h-8 w-6" />
+          </a>
+          <a
+            href="https://www.upwork.com/freelancers/~01fe1bf223c6b52e3e"
+            className="text-sm font-medium hover:text-greenish text-night"
+          >
+            <SiUpwork className="h-8 w-6" />
+          </a>
+          <a
+            href="mailto:sarahaboudalal@gmail.com"
+            className="text-sm font-medium hover:text-greenish text-night"
+          >
+            <MdEmail className="h-8 w-6" />
+          </a>
+        </div>
+      </div>
+    </nav>
   );
 }
-
-// <img src="https://flowbite.com/docs/images/logo.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
