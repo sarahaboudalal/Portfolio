@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../../assets/images/sarah-sad-01.png';
 import { twMerge } from 'tailwind-merge';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 import { MdEmail } from 'react-icons/md';
 import { SiUpwork } from 'react-icons/si';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
@@ -13,8 +13,12 @@ const classNames = (...classes) => {
 };
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+  const location = useLocation()
 
-  const [open, setOpen] = useState(false)
+  useEffect(() => {
+    setOpen(false)
+  }, [location.key])
 
   return (
     <nav className="bg-whitish px-4 sm:px-12 py-2.5 sticky w-full z-20 top-0 left-0 border-b border-gray-200 shadow-md">
@@ -32,7 +36,9 @@ export default function Navbar() {
               <FaBars className="text-4xl text-greenish absolute right-8 top-5 cursor-pointer md:hidden" />
             )}
           </button>
-          <img src={logo} alt="logo" class="mr-3 h-12" />
+          <Link to="/">
+            <img src={logo} alt="logo" class="mr-3 h-12" />
+          </Link>
           <div
             className={[
               'items-center justify-between md:flex md:w-auto md:order-1',
