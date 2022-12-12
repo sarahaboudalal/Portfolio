@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import logo from '../../assets/images/sarah-sad-01.png';
+import { twMerge } from 'tailwind-merge';
 import { NavLink } from 'react-router-dom';
 import { MdEmail } from 'react-icons/md';
 import { SiUpwork } from 'react-icons/si';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
+
+const classNames = (...classes) => {
+  return twMerge(classes);
+};
 
 export default function Navbar() {
 
@@ -43,17 +48,43 @@ export default function Navbar() {
               ].join(' ')}
             >
               <li className="md:py-0 py-2">
-                <NavLink className="cursor-pointer" to="/">
+                <NavLink
+                  className={({ isActive }) =>
+                    classNames(
+                      'cursor-pointer hover:text-night duration-300',
+                      isActive ? 'underline text-night' : ''
+                    )
+                  }
+                  to="/"
+                >
                   Work
                 </NavLink>
               </li>
               <li className="md:py-0 py-2">
-                <NavLink className="cursor-pointer">
+                <NavLink
+                  className={({ isActive }) =>
+                    classNames(
+                      'cursor-pointer hover:text-night duration-300',
+                      isActive ? 'underline text-night' : ''
+                    )
+                  }
+                  to="/skills"
+                >
                   Skills
                 </NavLink>
               </li>
               <li className="md:py-0 py-2">
-                <NavLink className="cursor-pointer">About</NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    classNames(
+                      'cursor-pointer hover:text-night duration-300',
+                      isActive ? 'underline text-night' : ''
+                    )
+                  }
+                  to="about"
+                >
+                  About
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -68,25 +99,25 @@ export default function Navbar() {
         >
           <a
             href="https://github.com/sarahaboudalal"
-            className="text-sm font-medium hover:text-greenish text-night"
+            className="text-sm font-medium hover:text-night text-greenish duration-300"
           >
             <BsGithub className="h-8 w-6" />
           </a>
           <a
             href="https://www.linkedin.com/in/sarah-abou-dalal-977891250/"
-            className="text-sm font-medium hover:text-greenish text-night"
+            className="text-sm font-medium hover:text-night text-greenish duration-300"
           >
             <BsLinkedin className="h-8 w-6" />
           </a>
           <a
             href="https://www.upwork.com/freelancers/~01fe1bf223c6b52e3e"
-            className="text-sm font-medium hover:text-greenish text-night"
+            className="text-sm font-medium hover:text-night text-greenish duration-300"
           >
             <SiUpwork className="h-8 w-6" />
           </a>
           <a
             href="mailto:sarahaboudalal@gmail.com"
-            className="text-sm font-medium hover:text-greenish text-night"
+            className="text-sm font-medium hover:text-night text-greenish duration-300"
           >
             <MdEmail className="h-8 w-6" />
           </a>
