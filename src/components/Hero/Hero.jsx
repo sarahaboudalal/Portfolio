@@ -11,14 +11,17 @@ export default function Hero() {
         <h3 className="text-greenish font-bold text-2xl py-3 text-center">
           Hi! I'm Sarah Abou Dalal, a
           <BsCode className="md:inline hidden text-greenish w-12" />
-          <p className="inline underline mx-2 md:mx-0">Front End Web Developer</p>
+          <p className="inline underline mx-2 md:mx-0">
+            Front End Web Developer
+          </p>
           <BsCodeSlash className="md:inline hidden text-greenish w-12" />
         </h3>
         <h3 className="text-greenish font-bold text-xl py-1 text-center">
-          I passionate about expanding my knowledge in tech field.<br /> I can help
-          
-          building user friendly websites using my technical skills, <br />
-          creative thinking, and effective communication.
+          I passionate about programming and development.
+          <br /> I can help building user friendly and functional websites.{' '}
+          <br />
+          Well known for problem solving, creative thinking, and effective
+          communication.
         </h3>
         <h3 className="text-greenish font-bold text-xl py-1">
           Find more about me{' '}
