@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
-    <div className="bg-whitish h-full py-4 md:px-0 px-4">
+    <div className="bg-whitish h-full py-4 md:px-0 px-4 border-b-2 border-beige">
       <div className="flex flex-col justify-center items-center py-5">
-        <h3 className="text-greenish font-extrabold text-5xl py-3 text-center">
+        <h3 className="text-greenish font-extrabold md:text-5xl text-3xl py-3 text-center">
           Welcome to My Portfolio
         </h3>
         <h3 className="text-greenish font-bold text-2xl py-3 text-center">
@@ -15,8 +15,8 @@ export default function Hero() {
           <BsCodeSlash className="md:inline hidden text-greenish w-12" />
         </h3>
         <h3 className="text-greenish font-bold text-xl py-1 text-center">
-          I passionate about expanding my knowledge in tech field. I can help
-          <br />
+          I passionate about expanding my knowledge in tech field.<br /> I can help
+          
           building user friendly websites using my technical skills, <br />
           creative thinking, and effective communication.
         </h3>

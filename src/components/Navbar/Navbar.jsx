@@ -105,18 +105,24 @@ export default function Navbar() {
         >
           <a
             href="https://github.com/sarahaboudalal"
+            rel="noreferrer"
+            target="_blank"
             className="text-sm font-medium hover:text-night text-greenish duration-300"
           >
             <BsGithub className="h-8 w-6" />
           </a>
           <a
             href="https://www.linkedin.com/in/sarah-abou-dalal-977891250/"
+            rel="noreferrer"
+            target="_blank"
             className="text-sm font-medium hover:text-night text-greenish duration-300"
           >
             <BsLinkedin className="h-8 w-6" />
           </a>
           <a
             href="https://www.upwork.com/freelancers/~01fe1bf223c6b52e3e"
+            rel="noreferrer"
+            target="_blank"
             className="text-sm font-medium hover:text-night text-greenish duration-300"
           >
             <SiUpwork className="h-8 w-6" />
