@@ -2,7 +2,7 @@
 
 export default function Projects({ project }) {
   return (
-    <div className="flex flex-col max-w-lg bg-beige border border-gray-200 rounded-lg shadow-md">
+    <div className="flex flex-col max-w-lg bg-whitish border border-beige rounded-lg shadow-lg hover:shadow-beige hover:shadow-2xl hover:scale-105 duration-300">
       <a href={project.siteUrl} rel="noreferrer" target="_blank">
         <img
           src={project.image}
@@ -13,7 +13,7 @@ export default function Projects({ project }) {
           {project.name}
         </h5>
       </a>
-      <p className="mb-3 font-normal text-night px-4">{project.description}</p>
+      <p className="mb-3 font-medium text-night px-4">{project.description}</p>
       <p className="text-greenish px-4 pb-6">
         <a
           href={project.codeUrl}

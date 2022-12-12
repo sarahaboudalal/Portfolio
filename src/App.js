@@ -1,23 +1,23 @@
-import About from './components/About/About';
+import { Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
-import Hero from './components/Hero/Hero';
+import HomePage from './pages/Home/HomePage';
 import Navbar from './components/Navbar/Navbar';
-// import Project from './components/Projects/Projects';
-import PorjectSection from './components/Projects/ProjectSection';
-import Skills from './components/Skills/Skills';
 import './index.css';
+import SkillsPage from './pages/Skills/SkillsPage';
+import AboutPage from './pages/About/AboutPage';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <Skills />
-      <About />
-      <PorjectSection />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='skills' element={<SkillsPage />} />
+        <Route path='/about' element={ <AboutPage/>} />
+      </Routes>
       <Footer />
-    </div>
-  );
-}
-
-export default App;
+      </div>
+      );
+    }
+    
+    export default App;
