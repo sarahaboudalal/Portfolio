@@ -84,7 +84,7 @@ export default function Navbar() {
                   className={({ isActive }) =>
                     classNames(
                       'cursor-pointer hover:text-night duration-300 dark:hover:text-whitish',
-                      isActive ? 'underline text-night dark:text-whitis' : ''
+                      isActive ? 'underline text-night dark:text-whitish' : ''
                     )
                   }
                   to="about"
