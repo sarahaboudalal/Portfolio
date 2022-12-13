@@ -21,7 +21,7 @@ export default function Navbar() {
   }, [location.key])
 
   return (
-    <nav className="bg-whitish px-4 sm:px-12 py-2.5 sticky w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-greenish shadow-md dark:bg-greenish">
+    <nav className="bg-tarnsparent backdrop-blur-lg px-4 sm:px-12 py-2.5 sticky w-full z-20 top-0 left-0 shadow-md ">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center">
           <button
@@ -47,7 +47,7 @@ export default function Navbar() {
           >
             <ul
               className={[
-                'text-greenish dark:text-beige font-bold md:text-xl bg-whitish dark:bg-greenish md:bg-transparent text-2xl md:flex flex-col md:flex-row md:w-auto md:h-auto gap-x-5 h-screen sm:w-72 w-56',
+                'text-greenish dark:text-beige font-bold md:text-xl bg-whitish dark:bg-greenish dark:md:bg-transparent md:bg-transparent text-2xl md:flex flex-col md:flex-row md:w-auto md:h-auto gap-x-5 h-screen sm:w-72 w-56',
                 open
                   ? 'md:shadow-none shadow-xl md:relative absolute top-0 left-0 md:p-0 px-5 pt-8'
                   : 'left-[-700px] top-[96px] hidden',

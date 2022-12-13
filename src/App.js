@@ -22,7 +22,7 @@ function App() {
     <div className="bg-whitish dark:bg-greenish">
       {loading && <LoadingScreen />}
       <Navbar />
-      <ThemeButton/>
+      <ThemeButton />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="skills" element={<SkillsPage />} />
