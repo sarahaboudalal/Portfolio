@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div className="bg-whitish py-16 px-12">
-      <h3 className="mb-10 text-center overline text-greenish text-4xl font-bold">
+    <div className="bg-whitish py-16 px-12 dark:bg-greenish">
+      <h3 className="mb-10 text-center overline text-greenish text-4xl font-bold dark:text-beige">
         About Me
       </h3>
       <div className="flex lg:flex-row flex-col">
@@ -10,7 +10,7 @@ export default function About() {
           alt="profile"
           className="w-72 h-72 lg:self-start self-center md:inline hidden lg:my-0 my-6 rounded-md shadow-lg"
         />
-        <div className="px-6 text-2xl my-1 font-medium text-night">
+        <div className="px-6 text-2xl my-1 font-medium text-night dark:text-whitish">
           <p className="pb-3">
           I'm a Front End Web Developer with basic knowledge in graphic
           designing. I'm passionate about expanding my knowledge in the tech

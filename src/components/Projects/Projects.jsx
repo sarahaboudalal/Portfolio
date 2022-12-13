@@ -2,7 +2,7 @@
 
 export default function Projects({ project }) {
   return (
-    <div className="flex flex-col max-w-lg bg-whitish border border-beige rounded-lg shadow-lg hover:shadow-beige hover:shadow-2xl hover:scale-105 duration-300">
+    <div className="flex flex-col max-w-lg bg-whitish border border-beige dark:border-greenish rounded-lg shadow-lg hover:shadow-beige dark:hover:shadow-night hover:shadow-xl hover:scale-105 duration-300">
       <a href={project.siteUrl} rel="noreferrer" target="_blank">
         <img
           src={project.image}
