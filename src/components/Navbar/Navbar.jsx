@@ -21,7 +21,7 @@ export default function Navbar() {
   }, [location.key])
 
   return (
-    <nav className="bg-whitish px-4 sm:px-12 py-2.5 sticky w-full z-20 top-0 left-0 border-b border-gray-200 shadow-md dark:bg-greenish">
+    <nav className="bg-whitish px-4 sm:px-12 py-2.5 sticky w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-greenish shadow-md dark:bg-greenish">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center">
           <button

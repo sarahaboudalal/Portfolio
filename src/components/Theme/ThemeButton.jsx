@@ -26,7 +26,7 @@ export default function ThemeButton() {
       <button
         onClick={handleThemeChange}
         type="button"
-        className="text-greenish dark:text-beige dark:bg-greenish hover:bg-whitish bg-beige dark:hover:bg-night focus:outline-none focus:ring-4 focus:ring-beige dark:focus:ring-greenish rounded-full text-sm p-2.5"
+        className="text-greenish dark:text-beige dark:bg-night hover:bg-whitish bg-beige dark:hover:bg-greenish focus:outline-none focus:ring-4 focus:ring-beige dark:focus:ring-night rounded-full text-sm p-2.5"
       >
         {theme === 'light' && (
           <svg
