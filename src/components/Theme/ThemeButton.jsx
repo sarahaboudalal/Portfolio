@@ -28,7 +28,7 @@ export default function ThemeButton() {
         type="button"
         className="text-greenish dark:text-beige dark:bg-greenish hover:bg-whitish bg-beige dark:hover:bg-night focus:outline-none focus:ring-4 focus:ring-beige dark:focus:ring-greenish rounded-full text-sm p-2.5"
       >
-        {theme === 'dark' && (
+        {theme === 'light' && (
           <svg
             id="theme-toggle-dark-icon"
             className="w-5 h-5"
@@ -39,7 +39,7 @@ export default function ThemeButton() {
             <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
           </svg>
         )}
-        {theme === 'light' && (
+        {theme === 'dark' && (
           <svg
             id="theme-toggle-light-icon"
             className="w-5 h-5"

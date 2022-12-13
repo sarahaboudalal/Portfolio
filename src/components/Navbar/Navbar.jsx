@@ -21,7 +21,7 @@ export default function Navbar() {
   }, [location.key])
 
   return (
-    <nav className="bg-whitish px-4 sm:px-12 py-2.5 sticky w-full z-20 top-0 left-0 border-b border-gray-200 shadow-md">
+    <nav className="bg-whitish px-4 sm:px-12 py-2.5 sticky w-full z-20 top-0 left-0 border-b border-gray-200 shadow-md dark:bg-greenish">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <div className="flex items-center">
           <button
@@ -31,9 +31,9 @@ export default function Navbar() {
             onClick={() => setOpen(!open)}
           >
             {open ? (
-              <AiOutlineClose className="text-4xl text-greenish absolute right-8 top-5 cursor-pointer md:hidden" />
+              <AiOutlineClose className="text-4xl text-greenish absolute right-8 top-5 cursor-pointer md:hidden dark:text-beige" />
             ) : (
-              <FaBars className="text-4xl text-greenish absolute right-8 top-5 cursor-pointer md:hidden" />
+              <FaBars className="text-4xl text-greenish absolute right-8 top-5 cursor-pointer md:hidden dark:text-beige" />
             )}
           </button>
           <Link to="/">
@@ -47,7 +47,7 @@ export default function Navbar() {
           >
             <ul
               className={[
-                'text-greenish font-bold md:text-xl bg-whitish md:bg-transparent text-2xl md:flex flex-col md:flex-row md:w-auto md:h-auto gap-x-5 h-screen sm:w-72 w-56',
+                'text-greenish dark:text-beige font-bold md:text-xl bg-whitish dark:bg-greenish md:bg-transparent text-2xl md:flex flex-col md:flex-row md:w-auto md:h-auto gap-x-5 h-screen sm:w-72 w-56',
                 open
                   ? 'md:shadow-none shadow-xl md:relative absolute top-0 left-0 md:p-0 px-5 pt-8'
                   : 'left-[-700px] top-[96px] hidden',
@@ -57,8 +57,8 @@ export default function Navbar() {
                 <NavLink
                   className={({ isActive }) =>
                     classNames(
-                      'cursor-pointer hover:text-night duration-300',
-                      isActive ? 'underline text-night' : ''
+                      'cursor-pointer hover:text-night duration-300 dark:hover:text-whitish',
+                      isActive ? 'underline text-night dark:text-whitish' : ''
                     )
                   }
                   to="/"
@@ -70,8 +70,8 @@ export default function Navbar() {
                 <NavLink
                   className={({ isActive }) =>
                     classNames(
-                      'cursor-pointer hover:text-night duration-300',
-                      isActive ? 'underline text-night' : ''
+                      'cursor-pointer hover:text-night duration-300 dark:hover:text-whitish',
+                      isActive ? 'underline text-night dark:text-whitish' : ''
                     )
                   }
                   to="/skills"
@@ -83,8 +83,8 @@ export default function Navbar() {
                 <NavLink
                   className={({ isActive }) =>
                     classNames(
-                      'cursor-pointer hover:text-night duration-300',
-                      isActive ? 'underline text-night' : ''
+                      'cursor-pointer hover:text-night duration-300 dark:hover:text-whitish',
+                      isActive ? 'underline text-night dark:text-whitis' : ''
                     )
                   }
                   to="about"
@@ -107,7 +107,7 @@ export default function Navbar() {
             href="https://github.com/sarahaboudalal"
             rel="noreferrer"
             target="_blank"
-            className="text-sm font-medium hover:text-night text-greenish duration-300"
+            className="text-sm font-medium hover:text-night text-greenish duration-300 dark:text-beige dark:hover:text-whitish"
           >
             <BsGithub className="h-8 w-6" />
           </a>
@@ -115,7 +115,7 @@ export default function Navbar() {
             href="https://www.linkedin.com/in/sarah-abou-dalal-977891250/"
             rel="noreferrer"
             target="_blank"
-            className="text-sm font-medium hover:text-night text-greenish duration-300"
+            className="text-sm font-medium hover:text-night text-greenish duration-300 dark:text-beige dark:hover:text-whitish"
           >
             <BsLinkedin className="h-8 w-6" />
           </a>
@@ -123,13 +123,13 @@ export default function Navbar() {
             href="https://www.upwork.com/freelancers/~01fe1bf223c6b52e3e"
             rel="noreferrer"
             target="_blank"
-            className="text-sm font-medium hover:text-night text-greenish duration-300"
+            className="text-sm font-medium hover:text-night text-greenish duration-300 dark:text-beige dark:hover:text-whitish"
           >
             <SiUpwork className="h-8 w-6" />
           </a>
           <a
             href="mailto:sarahaboudalal@gmail.com"
-            className="text-sm font-medium hover:text-night text-greenish duration-300"
+            className="text-sm font-medium hover:text-night text-greenish duration-300 dark:text-beige dark:hover:text-whitish"
           >
             <MdEmail className="h-8 w-6" />
           </a>
