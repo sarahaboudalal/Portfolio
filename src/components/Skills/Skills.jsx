@@ -68,7 +68,7 @@ export default function Skills() {
         </p>
       </div>
       <h3 className="text-night  text-5xl font-extrabold text-center m-3 pb-4 dark:text-whitish">
-        With Knowledge In
+        Knowledge In
       </h3>
       <div className="flex lg:flex-row flex-col items-center justify-around m-7">
         <p className="text-greenish text-xl text-center font-semibold dark:text-beige">
