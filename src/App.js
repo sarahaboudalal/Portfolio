@@ -9,9 +9,8 @@ import AboutPage from './pages/About/AboutPage';
 import LoadingScreen from './components/animation/LoadingScreen';
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 4000);
