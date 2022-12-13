@@ -20,15 +20,20 @@ function App() {
 
   return (
     <div className="bg-whitish dark:bg-greenish">
-      {loading && <LoadingScreen />}
-      <Navbar />
-      <ThemeButton />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="skills" element={<SkillsPage />} />
-        <Route path="/about" element={<AboutPage />} />
-      </Routes>
-      <Footer />
+      {loading === true ? (
+        <LoadingScreen />
+      ) : (
+        <>
+          <Navbar />
+          <ThemeButton />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="skills" element={<SkillsPage />} />
+            <Route path="/about" element={<AboutPage />} />
+          </Routes>
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
