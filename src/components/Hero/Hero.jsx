@@ -17,11 +17,8 @@ export default function Hero() {
           <BsCodeSlash className="md:inline hidden text-greenish w-12 dark:text-beige" />
         </h3>
         <h3 className="text-greenish font-bold md:text-xl text-lg py-1 text-center dark:text-beige">
-          I'm passionate about programming and development.
-          <br /> I can make user friendly and functional websites come to life,{' '}
-          <br />
-          and I have a strong skill-set in problem solving, <br/>creative thinking, and effective
-          communication.
+          I'm passionate about programming and development,
+          <br />and I love to make user friendly websites come to life.
         </h3>
         <h3 className="text-greenish font-bold text-xl py-1 dark:text-beige">
           Find more about me{' '}
