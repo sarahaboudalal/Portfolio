@@ -28,7 +28,7 @@ function App() {
           <ThemeButton />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="skills" element={<SkillsPage />} />
+            <Route path="/skills" element={<SkillsPage />} />
             <Route path="/about" element={<AboutPage />} />
           </Routes>
           <Footer />
