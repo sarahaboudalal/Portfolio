@@ -46,8 +46,8 @@ export default function About() {
             embroidering.
           </p>
           <p className="pt-3">
-            You can dowload my Resume
-            <button className="px-2 dark:text-beige text-greenish rounded-lg dark:hover:text-whitish hover:text-night text-center hover:underline">
+            You can dowload my resume
+            <button className="px-2 dark:text-beige text-greenish rounded-lg dark:hover:text-whitish hover:text-night text-center underline">
               <a href={resume} download>
                 here
               </a>

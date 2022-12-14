@@ -20,7 +20,7 @@ export default function Hero() {
           <br />
           and I love to make user friendly websites come to life.
         </h3>
-        <h3 className="text-greenish font-bold text-xl py-1 dark:text-beige">
+        <h3 className="text-greenish font-bold text-xl py-1 dark:text-beige text-center">
           Find more about me{' '}
           <Link
             to="/about"
