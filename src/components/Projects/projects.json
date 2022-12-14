@@ -9,6 +9,15 @@
     },
     {
         "id": "2",
+        "name": "OOP Movie Project",
+        "description": " A project to practice object-oriented programming in JavaScript. Utilizing TMDB API to get movies' and actors' details.",
+        "image": "https://media.discordapp.net/attachments/1031834305703460906/1049253105927196772/OOP-Movie-Project.png?width=1361&height=671",
+        "codeUrl": "https://github.com/sarahaboudalal/OOP-Movie-Project",
+        "siteUrl": "https://sarahaboudalal.github.io/OOP-Movie-Project/"
+
+    },
+    {
+        "id": "3",
         "name": "Firebase Blog",
         "description": "A blog website built using firebase authentication and cloud store. By signing in using your Google account, you can start writing blogs, and you get to delete your posts.",
         "image": "https://media.discordapp.net/attachments/1031834305703460906/1049253105285472336/firebase-blog.png?width=1361&height=671",
@@ -17,21 +26,12 @@
 
     },
     {
-        "id": "3",
+        "id": "4",
         "name": "Shopify Challenge",
         "description": "Built using React.js and styled with Tailwind CSS, this website allows you to search for your favorite movies, nominate the top 5, and let the website choose a winner movie for you.",
         "image": "https://media.discordapp.net/attachments/1031834305703460906/1049253104647942274/shopify-challenge.png?width=1361&height=671",
         "codeUrl":"https://github.com/sarahaboudalal/Shopify-Challenge",
         "siteUrl": "https://shopify-react-challenge.netlify.app"
-
-    },
-    {
-        "id": "4",
-        "name": "OOP Movie Project",
-        "description": " A project to practice object-oriented programming in JavaScript. Utilizing TMDB API to get movies' and actors' details.",
-        "image": "https://media.discordapp.net/attachments/1031834305703460906/1049253105927196772/OOP-Movie-Project.png?width=1361&height=671",
-        "codeUrl": "https://github.com/sarahaboudalal/OOP-Movie-Project",
-        "siteUrl": "https://sarahaboudalal.github.io/OOP-Movie-Project/"
 
     },
     {

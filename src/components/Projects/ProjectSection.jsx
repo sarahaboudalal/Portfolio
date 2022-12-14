@@ -9,7 +9,7 @@ export default function ProjectSection() {
       </h3>
       <div className="grid lg:grid-cols-2 grid-cols-1 content-center justify-items-center gap-y-9 gap-x-3">
         {projects.map((project) => (
-          <Projects project={project} />
+          <Projects key={project.id} project={project} />
         ))}
       </div>
     </div>
