@@ -1,5 +1,6 @@
 import { BsCodeSlash, BsCode } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import resume from '../../assets/Files/SarahAbouDalal.pdf';
 
 export default function Hero() {
   return (
@@ -11,22 +12,29 @@ export default function Hero() {
         <h3 className="text-greenish font-bold md:text-2xl text-xl py-3 text-center dark:text-beige">
           Hi! I'm Sarah Abou Dalal, a
           <BsCode className="md:inline hidden text-greenish w-12 dark:text-beige" />
-          <p className="inline italic mx-2 md:mx-0">
-            Front End Web Developer
-          </p>
+          <p className="inline italic mx-2 md:mx-0">Front End Web Developer</p>
           <BsCodeSlash className="md:inline hidden text-greenish w-12 dark:text-beige" />
         </h3>
         <h3 className="text-greenish font-bold md:text-xl text-lg py-1 text-center dark:text-beige">
           I'm passionate about programming and development,
-          <br />and I love to make user friendly websites come to life.
+          <br />
+          and I love to make user friendly websites come to life.
         </h3>
         <h3 className="text-greenish font-bold text-xl py-1 dark:text-beige">
           Find more about me{' '}
-          <Link to="/about" className="text-night hover:underline dark:text-whitish">
+          <Link
+            to="/about"
+            className="text-night hover:underline dark:text-whitish"
+          >
             here
           </Link>
           .
         </h3>
+        <button className="bg-greenish font-semibold px-3 dark:bg-beige text-beige dark:text-greenish rounded-full hover:bg-night hover:text-whitish dark:hover:text-night dark:hover:bg-whitish py-1">
+          <a href={resume} download>
+            Download Resume
+          </a>
+        </button>
       </div>
     </div>
   );

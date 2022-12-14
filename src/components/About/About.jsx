@@ -1,3 +1,4 @@
+import resume from '../../assets/Files/SarahAbouDalal.pdf';
 export default function About() {
   return (
     <div className="bg-whitish py-16 px-12 dark:bg-greenish">
@@ -43,6 +44,15 @@ export default function About() {
           <p className="pt-3">
             Outside the coding world, I love reading, photography, hiking, and
             embroidering.
+          </p>
+          <p className="pt-3">
+            You can dowload my Resume{' '}
+            <button className="bg-greenish px-2 dark:bg-beige text-beige dark:text-greenish rounded-lg hover:bg-night hover:text-whitish dark:hover:text-night dark:hover:bg-whitish text-center">
+              <a href={resume} download>
+                here
+              </a>
+            </button>
+            .
           </p>
         </div>
       </div>
