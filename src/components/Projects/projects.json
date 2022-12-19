@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Dilmun",
-        "description": "Capstone team project built at Re:Coded bootcamp. Dilmun allows people to sell, buy and even donate products with a click of a button. With its availability in 3 different languages, it also helps people meet and connect online. By signing up with either your email, Google, or Facebook account, you'll get to see the world we built at Dilmun.",
+        "description": "Capstone team project built at Re:Coded bootcamp. Dilmun allows people to sell, buy and even donate products with a click of a button.",
         "image": "https://media.discordapp.net/attachments/1031834305703460906/1049253104975089694/Dilmun-HomePage.png?width=1354&height=672",
         "codeUrl": "https://github.com/sarahaboudalal/capstone-IQLBPS-Dilmun" ,
         "siteUrl": "https://capstone-dilmun.netlify.app/"

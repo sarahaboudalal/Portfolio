@@ -22,7 +22,7 @@ export default function ThemeButton() {
     setTheme(theme === 'dark' ? 'light' : 'dark');
   };
   return (
-    <div className='fixed bottom-0 right-0 m-5'>
+    <div className='fixed bottom-0 right-0 m-5 z-20'>
       <button
         onClick={handleThemeChange}
         type="button"

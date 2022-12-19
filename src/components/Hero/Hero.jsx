@@ -4,7 +4,7 @@ import resume from '../../assets/Files/SarahAbouDalal.pdf';
 
 export default function Hero() {
   return (
-    <div className="bg-whitish h-full py-4 md:px-0 px-4 font-poppins border-b-2 border-beige dark:bg-greenish dark:border-night dark:border-opacity-20">
+    <div className="bg-whitish h-full py-8 drop-shadow-md md:px-0 px-4 font-poppins dark:bg-greenish">
       <div className="flex flex-col justify-center items-center py-5">
         <h3 className="text-night font-extrabold md:text-5xl text-3xl py-3 text-center dark:text-whitish">
           Welcome to Sarah's Portfolio
@@ -18,7 +18,7 @@ export default function Hero() {
         <h3 className="text-greenish font-bold md:text-xl text-lg py-1 text-center dark:text-beige">
           I'm passionate about programming and development,
           <br />
-          and I love to make user friendly websites come to life.
+          and I love to make user-friendly web applications come to life.
         </h3>
         <h3 className="text-greenish font-bold text-xl py-1 dark:text-beige text-center">
           Find more about me{' '}

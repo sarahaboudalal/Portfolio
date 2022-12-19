@@ -7,7 +7,7 @@ export default function ProjectSection() {
       <h3 className="mb-10 text-center overline text-greenish text-4xl font-bold dark:text-beige">
         My Work
       </h3>
-      <div className="grid lg:grid-cols-2 grid-cols-1 content-center justify-items-center gap-y-9 gap-x-3">
+      <div className="grid lg:grid-cols-2 grid-cols-1 content-center justify-evenly justify-items-center gap-y-9 gap-x-3">
         {projects.map((project) => (
           <Projects key={project.id} project={project} />
         ))}
