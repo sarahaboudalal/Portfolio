@@ -5,7 +5,7 @@ export default function About() {
       <h3 className="mb-10 text-center overline text-greenish text-4xl font-bold dark:text-beige">
         About Me
       </h3>
-      <div className="flex lg:flex-row flex-col">
+      <div className="flex lg:flex-row flex-col md:text-start text-center">
         <img
           src="https://cdn.discordapp.com/attachments/1035620424366698537/1040399760936407140/20221111_005321.jpg"
           alt="profile"
@@ -16,9 +16,9 @@ export default function About() {
             I'm a Front End Web Developer with basic knowledge in graphic
             designing. I'm passionate about expanding my knowledge in the tech
             field and solving problems. Well-versed in debugging and building
-            responsive and functional websites, with a strong skill set in
-            effective communication and creative thinking, and a background in
-            teamwork and collaboration.
+            responsive and functional web applications, with a strong skill set
+            in effective communication and creative thinking, and a background
+            in teamwork and collaboration.
           </p>
           <p>
             As for my former education, I studied Nursing at the Lebanese
@@ -29,7 +29,7 @@ export default function About() {
             more. Eventually I applied to one of{' '}
             <a
               href="https://www.re-coded.com/"
-              className="inline underline"
+              className="inline underline dark:text-beige text-greenish"
               rel="noreferrer"
               target="_blank"
             >
@@ -37,22 +37,32 @@ export default function About() {
             </a>
             's Front-End bootcamps, and I was one of the lucky people who were
             accepted there. In a period of 5 months, I jumped from someone who
-            knew nothing about coding, to a really confident Front End Web
+            knows nothing about coding, to a really confident Front End Web
             Developer who's even more ready to learn new things and discover the
-            world of tech more profoundly.
+            world of tech more profoundly. You can check my success story at
+            Re:Coded{' '}
+            <a
+              className="inline underline dark:text-beige text-greenish"
+              href="https://www.re-coded.com/blog/Sarah-success-story"
+              rel="noreferrer"
+              target="_blank"
+            >
+              here
+            </a>
+            .
           </p>
           <p className="pt-3">
             Outside the coding world, I love reading, photography, hiking, and
             embroidering.
           </p>
           <p className="pt-3">
-            You can dowload my resume
+            Click
             <button className="px-2 dark:text-beige text-greenish rounded-lg dark:hover:text-whitish hover:text-night text-center underline">
               <a href={resume} download>
                 here
               </a>
             </button>
-            .
+            to download my resume.
           </p>
         </div>
       </div>
