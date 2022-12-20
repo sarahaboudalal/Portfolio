@@ -74,19 +74,6 @@ export default function Navbar() {
                       isActive ? 'underline text-night dark:text-whitish' : ''
                     )
                   }
-                  to="/skills"
-                >
-                  Skills
-                </NavLink>
-              </li>
-              <li className="md:py-0 py-2">
-                <NavLink
-                  className={({ isActive }) =>
-                    classNames(
-                      'cursor-pointer hover:text-night duration-300 dark:hover:text-whitish',
-                      isActive ? 'underline text-night dark:text-whitish' : ''
-                    )
-                  }
                   to="about"
                 >
                   About
